@@ -1,0 +1,32 @@
+.navBarContainer {
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.15rem;
+    line-height: 30px;
+    text-align: center;
+    background-color: white;
+    color: #1A2744;
+}
+
+.navBarContainer a {
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #1A2744;
+}
+
+.navBarContainer a:hover {
+    cursor: pointer;
+}
+
+.navBarRight {
+    float: right;
+}
+
+.navBarRight a:hover {
+    background-color: #1A2744;
+    color: white;
+    cursor: pointer;
+}

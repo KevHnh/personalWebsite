@@ -1,0 +1,29 @@
+.linksContainer {
+    position: fixed;
+    left: 2rem;
+    bottom: 0;
+}
+
+.linksWrapper {
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+}
+
+.linksWrapper a {
+   margin-bottom: .6rem;
+   color: #1A2744;
+   transition: 0s;
+}
+
+.lineBlock {
+    border-left: .4rem solid #1A2744;
+    height: 10rem;
+    margin-left: .86rem;
+}
+
+.linksWrapper a:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: transform 1s;
+}
