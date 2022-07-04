@@ -32,20 +32,22 @@ function About() {
                     </div>
                 </div>
                 <div className="aboutWrapper">
-                    <div className="aboutText">
+                    <div className="aboutText last">
                         10 <b>technologies</b> I <b>enjoy</b> working with:
-                        <ul className='listContainer'>
-                            <li>HTML</li>
-                            <li>CSS</li>  
-                            <li>JavaScript</li> 
-                            <li>React</li> 
-                            <li>MongoDB</li> 
-                            <li>Node.js</li> 
-                            <li>Express.js</li> 
-                            <li>C++</li> 
-                            <li>Python</li> 
-                            <li>Solidity</li> 
-                        </ul>
+                        <div className="listCenter">
+                            <ul className='listContainer'>
+                                <li>HTML</li>
+                                <li>CSS</li>  
+                                <li>JavaScript</li> 
+                                <li>React</li> 
+                                <li>MongoDB</li> 
+                                <li>Node.js</li> 
+                                <li>Express.js</li> 
+                                <li>C++</li> 
+                                <li>Python</li> 
+                                <li>Solidity</li> 
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </Slider>

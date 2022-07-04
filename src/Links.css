@@ -25,5 +25,5 @@
 .linksWrapper a:hover {
     cursor: pointer;
     transform: scale(1.5);
-    transition: transform 1s;
+    transition: transform .25s;
 }
