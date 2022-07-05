@@ -2,6 +2,7 @@
     position: fixed;
     left: 2rem;
     bottom: 0;
+    transition: bottom .8s;
 }
 
 .linksWrapper {
@@ -25,5 +26,5 @@
 .linksWrapper a:hover {
     cursor: pointer;
     transform: scale(1.5);
-    transition: transform .25s;
+    transition: transform 1s;
 }

@@ -5,6 +5,23 @@ import Links from './Links';
 import NavBar from './NavBar';
 
 function App() {
+
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+      document.getElementById("nav").style.top = "0px"
+    } else {
+      document.getElementById("nav").style.top = "-70px"
+    }
+
+    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+      document.getElementById("link").style.bottom = "-70px"
+    } else {
+      document.getElementById("link").style.bottom = "-100rem"
+    }
+  }
+
   return (
     <div className="App">
       <style>@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');</style>
@@ -12,11 +29,11 @@ function App() {
         <Home/>
       </div>
       <div id="body" className='appBody'>
-        <div className='topNav'>
+        <div id="nav" className='topNav'>
           <NavBar/>
         </div>
           <About/>
-        <div className='linksContainer'>
+        <div className='appLinksContainer'>
           <Links/>
         </div>
       </div>

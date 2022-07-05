@@ -7,7 +7,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 
 function Links() {
   return (
-    <div className="linksContainer">
+    <div id="link" className="linksContainer">
         <div className="linksWrapper">
             <a href="https://www.linkedin.com/in/kevin-hinh/" target="_blank"><LinkedInIcon fontSize="large"/></a>
             <a href="https://github.com/KevHnh" target="_blank"><GitHubIcon fontSize="large"/></a>

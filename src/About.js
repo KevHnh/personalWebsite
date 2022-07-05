@@ -17,18 +17,22 @@ function About() {
         <div className="aboutWrapper">
             <Slider {...settings}>
                 <div className="aboutWrapper">
-                    <div className="aboutText" >
-                        <b>Hello there!</b> <br/> <br/>
-                        My name is <b>Kevin Hinh</b>. <br/>
-                        I <b>skillfully</b> push buttons on my keyboard.
+                    <div className="listCenter">
+                        <div className="aboutText" >
+                            <b>Hello there!</b> <br/> <br/>
+                            My name is <b>Kevin Hinh</b>. <br/>
+                            I <b>skillfully</b> push buttons on my keyboard.
+                        </div>
                     </div>
                 </div>
                 <div className="aboutWrapper">
-                    <div className="aboutText">
-                        For the most part, I am a <b>full stack developer</b>. 
-                        I enjoy expressing my creativity through <b>frontend design</b> 
-                        &nbsp;and working through technical challenges while implementing 
-                        efficient <b>backend systems</b>. A <b>jack of all trades</b> if you will.
+                    <div className="listCenter">
+                        <div className="aboutText">
+                            For the most part, I am a <b>full stack developer</b>. 
+                            I enjoy expressing my creativity through <b>frontend design</b> 
+                            &nbsp;and working through technical challenges while implementing 
+                            efficient <b>backend systems</b>. A <b>jack of all trades</b> if you will.
+                        </div>
                     </div>
                 </div>
                 <div className="aboutWrapper">

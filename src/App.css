@@ -4,17 +4,15 @@
 
 .topNav {
     position: fixed;
-    top: 0;
+    top: -70px;
     width: 100%;
     background-color: white;
+    transition: top 1s;
 }
 
-.linksContainer {
+.appLinksContainer {
     position: fixed;
     bottom: 0;
-}
-
-.topNav--hidden {
-    top: 0;
+    width: 100%;
 }
 

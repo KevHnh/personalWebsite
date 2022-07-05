@@ -13,14 +13,15 @@ function Home() {
                 <Typewriter
                     options={{
                         strings: [
-                            'hi, nice to meet you!', 
-                            'my name is Kevin',
+                            'Hi, nice to meet you!', 
+                            'My name is Kevin',
                             'I study computer science',
                             'I build interesting things',
                             'Hunter College Graduate',
                             'I make poor financial decisions',
                             'I buy digital photos of apes',
                             'Virgo',
+                            'SICKO MODE',
                         ],
                         autoStart: true,
                         loop: true,
