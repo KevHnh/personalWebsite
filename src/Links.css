@@ -1,8 +1,8 @@
 .linksContainer {
     position: fixed;
     left: 2rem;
-    bottom: 0;
-    transition: bottom .8s;
+    bottom: -100rem;
+    transition: bottom .6s;
 }
 
 .linksWrapper {

@@ -9,13 +9,13 @@ function App() {
   window.onscroll = function() {scrollFunction()};
 
   function scrollFunction() {
-    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
       document.getElementById("nav").style.top = "0px"
     } else {
-      document.getElementById("nav").style.top = "-70px"
+      document.getElementById("nav").style.top = "-10rem"
     }
 
-    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
       document.getElementById("link").style.bottom = "-70px"
     } else {
       document.getElementById("link").style.bottom = "-100rem"
