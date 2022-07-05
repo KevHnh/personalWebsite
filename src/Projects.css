@@ -1,0 +1,47 @@
+.projectsContainer {
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1A2744;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectsTitle {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.projectsSection {
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem;
+    column-gap: 2.5rem;
+    row-gap: 1rem;
+    color: white;
+}
+
+.projectsBox {
+    background-color: #1A2744;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectsBoxWrapper {
+    width: 75%;
+    position: inherit;
+    align-items: center;
+}

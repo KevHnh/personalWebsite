@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Home';
 import Links from './Links';
 import NavBar from './NavBar';
+import Projects from './Projects';
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
           <NavBar/>
         </div>
           <About/>
+          <Projects/>
         <div className='appLinksContainer'>
           <Links/>
         </div>
