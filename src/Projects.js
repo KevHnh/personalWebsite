@@ -1,61 +1,99 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './Projects.css'
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LanguageIcon from '@mui/icons-material/Language';
 
 function Projects() {
-    const [isActive1, setIsActive1] = useState(false);
-    const [isActive2, setIsActive2] = useState(false);  
-    const [isActive3, setIsActive3] = useState(false);  
-    const [isActive4, setIsActive4] = useState(false);  
-    const [isActive5, setIsActive5] = useState(false);  
-    const [isActive6, setIsActive6] = useState(false);  
-
-    const handleClick1 = () => {
-        setIsActive1(current => !current);
-    };
-
-    const handleClick2 = () => {
-        setIsActive2(current => !current);
-    };
-
-    const handleClick3 = () => {
-        setIsActive3(current => !current);
-    };
-
-    const handleClick4 = () => {
-        setIsActive4(current => !current);
-    };
-
-    const handleClick5 = () => {
-        setIsActive5(current => !current);
-    };
-
-    const handleClick6 = () => {
-        setIsActive6(current => !current);
-    };
-
   return (
     <div id="projects" className='projectsContainer'>
         <div className="projectsTitle">
             Some things I’ve built
         </div>
         <div className="projectsSection">
-            <div className='projectsBox one' onClick={handleClick1} style={{position: isActive1 ? 'absolute' : '', width: isActive1 ? '1040px' : '', height: isActive1 ? '656px' : '', zIndex: isActive1 ? '100' : ''}}>
+            <div className='projectsBox one'>
                 <div className='projectsBoxWrapper'>Ezsea</div>
+                <div className='projectsBoxDescriptionContainer'>
+                    <div className='projectboxDescriptionWrapper'>
+                        <div className='projectsBoxDescription'>  
+                            <div className='projectsBoxTitle'>Ezsea</div>
+                            An online learning platform where learners and educators get rewarded for their hardwork and contribution. <br/><br/> 
+                            Platform encourages users to create lessons using a document builder on any topic of subject they excel at, 
+                            and explore an endless variety of potential interests and career paths. 
+                            Users’ statistics are tracked and verified users are eligible for weekly Solana payouts. 
+                            <a className="webIcon" href="https://ezsea.netlify.app" target="_blank"><LanguageIcon></LanguageIcon></a> 
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className='projectsBox two' onClick={handleClick2} style={{position: isActive2 ? 'absolute' : '', width: isActive2 ? '1040px' : '', height: isActive2 ? '656px' : '', zIndex: isActive2 ? '100' : ''}}>
-                <div className='projectsBoxWrapper'>Solana Distributor</div>    
+            <div className='projectsBox two'>
+                <div className='projectsBoxWrapper'>Solana Distributor</div>  
+                <div className='projectsBoxDescriptionContainer'>
+                    <div className='projectboxDescriptionWrapper'> 
+                        <div className='projectsBoxDescription'>
+                            <div className='projectsBoxTitle'>Solana Distributor</div>
+                            An online learning platform where learners and educators get rewarded for their hardwork and contribution. 
+                            Platform encourages users to create lessons using a document builder on any topic of subject they excel at, and explore an endless variety of potential interests and career paths. 
+                            Users’ statistics are tracked and verified users are eligible for weekly Solana payouts. 
+                            <a className="webIcon" href="https://github.com/KevHnh/solana_distributor" target="_blank"><GitHubIcon></GitHubIcon></a> 
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className='projectsBox three' onClick={handleClick3} style={{position: isActive3 ? 'absolute' : '', width: isActive3 ? '1040px' : '', height: isActive3 ? '656px' : '', zIndex: isActive3 ? '100' : ''}}>
+            <div className='projectsBox three'>
                 <div className='projectsBoxWrapper'>NFT Wallet Verifier</div>
+                <div className='projectsBoxDescriptionContainer'>
+                    <div className='projectboxDescriptionWrapper'> 
+                        <div className='projectsBoxDescription'>
+                            <div className='projectsBoxTitle'>NFT Wallet Verifier</div>
+                            An online learning platform where learners and educators get rewarded for their hardwork and contribution. 
+                            Platform encourages users to create lessons using a document builder on any topic of subject they excel at, and explore an endless variety of potential interests and career paths. 
+                            Users’ statistics are tracked and verified users are eligible for weekly Solana payouts. 
+                            <a className="webIcon" href="https://github.com/KevHnh/solana_distributor" target="_blank"><GitHubIcon></GitHubIcon></a> 
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className='projectsBox four' onClick={handleClick4} style={{position: isActive4 ? 'absolute' : '', width: isActive4 ? '1040px' : '', height: isActive4 ? '656px' : '', zIndex: isActive4 ? '100' : ''}}>
-                <div className='projectsBoxWrapper'>ERC-721A Smart Contract</div>
+            <div className='projectsBox four'>
+                <div className='projectsBoxWrapper'>ERC-721A NFT Minting Page</div>
+                <div className='projectsBoxDescriptionContainer'>
+                    <div className='projectboxDescriptionWrapper'> 
+                        <div className='projectsBoxDescription'>
+                            <div className='projectsBoxTitle'>ERC-721A NFT Minting Page</div>
+                            An online learning platform where learners and educators get rewarded for their hardwork and contribution. 
+                            Platform encourages users to create lessons using a document builder on any topic of subject they excel at, and explore an endless variety of potential interests and career paths. 
+                            Users’ statistics are tracked and verified users are eligible for weekly Solana payouts. 
+                            <a className="webIcon" href="https://github.com/KevHnh/solana_distributor" target="_blank"><GitHubIcon></GitHubIcon></a> 
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className='projectsBox five' onClick={handleClick5} style={{position: isActive5 ? 'absolute' : '', width: isActive5 ? '1040px' : '', height: isActive5 ? '656px' : '', zIndex: isActive5 ? '100' : ''}}>
+            <div className='projectsBox five'>
                 <div className='projectsBoxWrapper'>Expense Tracker</div>
+                <div className='projectsBoxDescriptionContainer'>
+                    <div className='projectboxDescriptionWrapper'> 
+                        <div className='projectsBoxDescription'>
+                            <div className='projectsBoxTitle'>Expense Tracker</div>
+                            An online learning platform where learners and educators get rewarded for their hardwork and contribution. 
+                            Platform encourages users to create lessons using a document builder on any topic of subject they excel at, and explore an endless variety of potential interests and career paths. 
+                            Users’ statistics are tracked and verified users are eligible for weekly Solana payouts. 
+                            <a className="webIcon" href="https://github.com/KevHnh/solana_distributor" target="_blank"><GitHubIcon></GitHubIcon></a> 
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className='projectsBox six' onClick={handleClick6} style={{position: isActive6 ? 'absolute' : '', width: isActive6 ? '1040px' : '', height: isActive6 ? '656px' : '', zIndex: isActive6 ? '100' : ''}}>
+            <div className='projectsBox six'>
                 <div className='projectsBoxWrapper'>COVID-19 Tracker</div>
+                <div className='projectsBoxDescriptionContainer'>
+                    <div className='projectboxDescriptionWrapper'> 
+                        <div className='projectsBoxDescription'>
+                            <div className='projectsBoxTitle'>COVID-19 Tracker</div>
+                            An online learning platform where learners and educators get rewarded for their hardwork and contribution. 
+                            Platform encourages users to create lessons using a document builder on any topic of subject they excel at, and explore an endless variety of potential interests and career paths. 
+                            Users’ statistics are tracked and verified users are eligible for weekly Solana payouts. 
+                            <a className="webIcon" href="https://github.com/KevHnh/solana_distributor" target="_blank"><GitHubIcon></GitHubIcon></a> 
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

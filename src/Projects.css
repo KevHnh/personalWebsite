@@ -22,7 +22,7 @@
 
 .projectsSection {
     display: grid;
-    grid-template-columns: 20rem 20rem 20rem;
+    grid-template-columns: 25rem 25rem 25rem;
     column-gap: 2.5rem;
     row-gap: 1rem;
     color: white;
@@ -31,17 +31,58 @@
 .projectsBox {
     background-color: #1A2744;
     height: 20rem;
-    width: 20rem;
+    width: 25rem;
     border-radius: 1rem;
     font-weight: bold;
     font-size: 1.5rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .projectsBoxWrapper {
-    width: 75%;
-    position: inherit;
+    position: absolute;
     align-items: center;
+    justify-content: center;
+}
+
+.projectsBoxTitle {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.projectsBoxDescriptionContainer {
+    opacity: 0;
+    height: 20rem;
+    width: 25rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectsBoxDescription {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.webIcon {
+    text-decoration: none;
+    color: white;
+}
+
+.projectsBox:hover .projectsBoxWrapper{
+    visibility: hidden;
+}
+
+.projectsBox:hover .projectsBoxDescriptionContainer {
+    opacity: 1;
+    transition: opacity .8s;
 }
