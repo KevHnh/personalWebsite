@@ -26,7 +26,7 @@ function App() {
   function expandFunction() {
     let elements = document.querySelectorAll("#projectCardDesc")
 
-    if (document.body.scrollTop > 1900 || document.documentElement.scrollTop > 1900) {
+    if (document.body.scrollTop > 1400 || document.documentElement.scrollTop > 1400) {
       for(var i = 0; i < elements.length; i++) {
         elements[i].style.transform = "translate(-1rem)"
       }
