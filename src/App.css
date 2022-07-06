@@ -8,11 +8,13 @@
     width: 100%;
     background-color: white;
     transition: top .8s;
+    z-index: 5;
 }
 
 .appLinksContainer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    z-index: 5;
 }
 

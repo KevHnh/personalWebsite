@@ -7,7 +7,7 @@ import Projects from './Projects';
 
 function App() {
 
-  window.onscroll = function() {scrollFunction()};
+  window.onscroll = function() {scrollFunction(); expandFunction()};
 
   function scrollFunction() {
     if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
@@ -20,6 +20,20 @@ function App() {
       document.getElementById("link").style.bottom = "-70px"
     } else {
       document.getElementById("link").style.bottom = "-100rem"
+    }
+  }
+
+  function expandFunction() {
+    let elements = document.querySelectorAll("#projectCardDesc")
+
+    if (document.body.scrollTop > 1900 || document.documentElement.scrollTop > 1900) {
+      for(var i = 0; i < elements.length; i++) {
+        elements[i].style.transform = "translate(-1rem)"
+      }
+    } else {
+      for(var i = 0; i < elements.length; i++) {
+        elements[i].style.transform = "translate(-1000px)"
+      }
     }
   }
 
