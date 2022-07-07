@@ -24,15 +24,26 @@ function App() {
   }
 
   function expandFunction() {
-    let elements = document.querySelectorAll("#projectCardDesc")
+    let elements1 = document.querySelectorAll("#projectCardDesc")
+    let elements2 = document.querySelectorAll("#projectCardDescR")
 
     if (document.body.scrollTop > 1400 || document.documentElement.scrollTop > 1400) {
-      for(var i = 0; i < elements.length; i++) {
-        elements[i].style.transform = "translate(-1rem)"
+      for(let i = 0; i < elements1.length; i++) {
+        elements1[i].style.transform = "translate(-1rem)"
       }
     } else {
-      for(var i = 0; i < elements.length; i++) {
-        elements[i].style.transform = "translate(-1000px)"
+      for(let i = 0; i < elements1.length; i++) {
+        elements1[i].style.transform = "translate(-1000px)"
+      }
+    }
+
+    if (document.body.scrollTop > 1400 || document.documentElement.scrollTop > 1400) {
+      for(let i = 0; i < elements2.length; i++) {
+        elements2[i].style.transform = "translate(1rem)"
+      }
+    } else {
+      for(let i = 0; i < elements2.length; i++) {
+        elements2[i].style.transform = "translate(1000px)"
       }
     }
   }

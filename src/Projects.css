@@ -27,6 +27,7 @@
     display: flex;
     justify-content: center;
     background-color: white;
+    overflow-x: hidden;
 }
 
 .projectsCard {
@@ -38,11 +39,20 @@
     margin-bottom: 5rem;
 }
 
+.projectsCardR {
+    display: flex;
+    border-radius: 1px;
+    width: 80rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    flex-direction: row-reverse;
+}
+
 .projectsTitleSection {
-    position: relative;
     background-color: #1A2744;
     color: white;
-    width: 70rem;
+    width: 40rem;
     font-size: 1.5rem;
     height: 30rem;
     border-radius: 1rem;
@@ -55,26 +65,42 @@
 .projectsDescriptionSection {
     border: 1px solid #1A2744 ;
     font-size: 1.25rem;
-    text-align: right;
+    text-align: left;
     height: 25rem;
     display: flex;
     justify-content: center;   
     align-items: center;
     border-radius: 1rem;
-    transform: translate(-1rem);
     transition: transform 1s;
+    animation-delay: 3.1s;
+}
+
+.projectsDescriptionSectionR {
+    border: 1px solid #1A2744 ;
+    font-size: 1.25rem;
+    text-align: left;
+    height: 25rem;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    border-radius: 1rem;
+    transition: transform 1s;    
+    animation-delay: 3.1s;
 }
 
 .projectsDescriptionWrapper {
     margin: 2rem;
 }
 
+
 .webIcon {
     text-decoration: none;
     color: white;
 }
 
-@keyframes revealRight {
-    from {transform: translate(-1000px)}
-    to {transform: translate(-1rem)}
+.toolsContainer {
+    columns: 4;
+    list-style: none;
+    float: left;
+    text-align: left;
 }
