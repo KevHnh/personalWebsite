@@ -48,7 +48,7 @@ function Projects() {
                 <div className="projectsCardR">
                     <div className="projectsTitleSection">
                         <div className="projectsTitleWrapper">
-                            <div>Ezsea</div>
+                            <div>NFT Wallet Verifier</div>
                             <div>Jan 2022 - May 2022</div>
                             <a className="webIcon" href="https://ezsea.netlify.app" target="_blank"><LanguageIcon></LanguageIcon></a>
                         </div>
@@ -66,13 +66,13 @@ function Projects() {
                                 </ul>
                             </div>
                         </div>
-                        </div>
                     </div>
+                </div>
 
-                    <div className="projectsCard">
+                <div className="projectsCard">
                     <div className="projectsTitleSection">
                         <div className="projectsTitleWrapper">
-                            <div>Ezsea</div>
+                            <div>Solana Distributor</div>
                             <div>Jan 2022 - May 2022</div>
                             <a className="webIcon" href="https://ezsea.netlify.app" target="_blank"><LanguageIcon></LanguageIcon></a>
                         </div>
@@ -96,7 +96,7 @@ function Projects() {
                 <div className="projectsCardR">
                     <div className="projectsTitleSection">
                         <div className="projectsTitleWrapper">
-                            <div>Ezsea</div>
+                            <div>ERC-721A Minting Page</div>
                             <div>Jan 2022 - May 2022</div>
                             <a className="webIcon" href="https://ezsea.netlify.app" target="_blank"><LanguageIcon></LanguageIcon></a>
                         </div>
@@ -114,13 +114,13 @@ function Projects() {
                                 </ul>
                             </div>
                         </div>
-                        </div>
                     </div>
+                </div>
 
-                    <div className="projectsCard">
+                <div className="projectsCard">
                     <div className="projectsTitleSection">
                         <div className="projectsTitleWrapper">
-                            <div>Ezsea</div>
+                            <div>Expense Tracker</div>
                             <div>Jan 2022 - May 2022</div>
                             <a className="webIcon" href="https://ezsea.netlify.app" target="_blank"><LanguageIcon></LanguageIcon></a>
                         </div>
@@ -134,25 +134,16 @@ function Projects() {
                             </div>
                             <div className="projectsDescriptionTools">
                                 <ul className='toolsContainer'>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>React.js</li>
-                                    <li>Tailwind CSS</li>
-                                    <li>MongoDB</li>
-                                    <li>Mongoose</li>
-                                    <li>Express</li>
-                                    <li>Node</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                    <div className="projectsCardR">
+                <div className="projectsCardR">
                     <div className="projectsTitleSection">
                         <div className="projectsTitleWrapper">
-                            <div>Ezsea</div>
+                            <div>COVID-19 Tracker</div>
                             <div>Jan 2022 - May 2022</div>
                             <a className="webIcon" href="https://ezsea.netlify.app" target="_blank"><LanguageIcon></LanguageIcon></a>
                         </div>
@@ -170,8 +161,9 @@ function Projects() {
                                 </ul>
                             </div>
                         </div>
-                        </div>
                     </div>
+                </div>
+
             </div>
             <div className="projectsPadding"></div>
         </div>

@@ -12,7 +12,7 @@
 
 .projectsTitle {
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
     padding-top: 7.5rem;
 }
 
@@ -28,6 +28,7 @@
     justify-content: center;
     background-color: white;
     overflow-x: hidden;
+    position: absolute;
 }
 
 .projectsCard {
@@ -52,7 +53,7 @@
 .projectsTitleSection {
     background-color: #1A2744;
     color: white;
-    width: 40rem;
+    width: 25%;
     font-size: 1.5rem;
     height: 30rem;
     border-radius: 1rem;
@@ -64,6 +65,7 @@
 
 .projectsDescriptionSection {
     border: 1px solid #1A2744 ;
+    width: 75%;
     font-size: 1.25rem;
     text-align: left;
     height: 25rem;
@@ -72,7 +74,6 @@
     align-items: center;
     border-radius: 1rem;
     transition: transform 1s;
-    animation-delay: 3.1s;
 }
 
 .projectsDescriptionSectionR {
@@ -80,12 +81,12 @@
     font-size: 1.25rem;
     text-align: left;
     height: 25rem;
+    width: 75%;
     display: flex;
     justify-content: center;   
     align-items: center;
     border-radius: 1rem;
     transition: transform 1s;    
-    animation-delay: 3.1s;
 }
 
 .projectsDescriptionWrapper {
