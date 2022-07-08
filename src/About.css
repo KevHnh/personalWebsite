@@ -65,6 +65,11 @@ ul.slick-dots {
 
 .slick-track {
     top: 1rem !important;
+    cursor: grab;
+}
+
+.slick-track:active {
+    cursor: grabbing;
 }
 
 
