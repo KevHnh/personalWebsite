@@ -1,7 +1,7 @@
 .linksContainer {
     position: fixed;
     left: 1.7vw;
-    bottom: 1vw;
+    bottom: -50vw;
     transition: bottom .6s;
 }
 
