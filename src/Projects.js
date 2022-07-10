@@ -115,12 +115,16 @@ function Projects() {
                         <div className="projectsDescriptionWrapper"> 
                             <div className="projectsDescriptionText">
                                 An NFT minting website built using <a href="https://www.erc721a.org/" target="_blank">ERC721A</a>, "an improved implementation of the IERC721 standard that supports minting multiple tokens for close to the cost of one."<br/><br/>
-                                Standard Solidity NFT minting smart contract with toggleable sale states, <a href="https://medium.com/@ItsCuzzo/using-merkle-trees-for-nft-whitelists-523b58ada3f9" target="_blank">Merkle Proof</a> whitelist verification, and art reveal functionality.<br/><br/>
-                                
+                                Standard Solidity NFT minting smart contract with toggleable sale states, <a href="https://medium.com/@ItsCuzzo/using-merkle-trees-for-nft-whitelists-523b58ada3f9" target="_blank">Merkle Proof</a> whitelist verification, and art reveal functionality.<br/><br/> 
                             </div>
                             <div className="projectsDescriptionTools">
+                                <div>Tools Used: </div>
                                 <ul className='toolsContainer'>
-                                    <li></li>
+                                    <li>React.js</li>
+                                    <li>Solidity</li>
+                                    <li>Hardhat</li>
+                                    <li>MerkleTree.js</li>
+                                    <li>openzeppelin</li>
                                 </ul>
                             </div>
                         </div>

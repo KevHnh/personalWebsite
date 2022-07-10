@@ -33,7 +33,7 @@ function Home() {
             <a className="downArrowIcon" href="#about"><KeyboardArrowDownIcon className='downArrowElement'/></a>
         </div>
         <div className="imgContainer">
-            <img src={kevNFT} alt="Kevin NFT"></img>
+            <img className="kevPNG" src={kevNFT} alt="Kevin NFT"></img>
         </div>
     </div>
   )

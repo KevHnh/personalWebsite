@@ -9,20 +9,20 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 1000;
-    font-size: 4rem;
-    line-height: 91px;
+    font-size: 3.25vw;
+    line-height: 3vw;
     text-align: center; 
     color: #1A2744;
 }
 
 .typewriterComponent {
     font-family: 'Inter';
-    font-size: 1.5rem;
+    font-size: 1.25vw;
     text-align: center;
     justify-content: center; 
     color: white;
     background-color: rgb(255, 127, 63);
-    height: 2rem;
+    height: 1.5vw;
 }
 
 .imgContainer {
@@ -31,7 +31,12 @@
     z-index: -10;
     bottom: 0;
     left: 0;
-    height: 500px;
+    width: 25vw;
+    height: 25vw;
+}
+
+.kevPNG {
+    width: 100%;
 }
 
 .downArrowContainer {

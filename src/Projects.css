@@ -4,7 +4,7 @@
     height: 100vh;
     font-family: 'Inter';
     font-style: normal;
-    font-size: 2rem;
+    font-size: 1.8vw;
     justify-content: center;
     align-items: center;
     color: #1A2744;
@@ -12,8 +12,8 @@
 
 .projectsTitle {
     font-weight: bold;
-    margin-bottom: 4rem;
-    padding-top: 7.5rem;
+    margin-bottom: 4vw;
+    padding-top: 7.5vw;
 }
 
 .projectsPadding {
@@ -37,12 +37,12 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: 5vw;
 }
 
 .projectsCardR {
     display: flex;
-    border-radius: 1px;
+    border-radius: 1vw;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -53,10 +53,9 @@
 .projectsTitleSection {
     background-color: #1A2744;
     color: white;
-    width: 20rem;
-    font-size: 1.5rem;
-    height: 30rem;
-    border-radius: 1rem;
+    width: 16vw;
+    height: 25vw;
+    border-radius: 1vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,43 +63,43 @@
 }
 
 .projectsDescriptionSection {
-    border: 1px solid #1A2744 ;
-    width: 50rem;
-    font-size: 1.1rem;
+    border: .15vw solid #1A2744 ;
+    width: 40vw;
+    font-size: .95vw;
     text-align: left;
-    height: 25rem;
+    height: 20vw;
     display: flex;
     justify-content: center;   
     align-items: center;
-    border-radius: 1rem;
+    border-radius: 1vw;
     transition: transform 1s;
 }
 
 .projectsDescriptionSectionR {
-    border: 1px solid #1A2744 ;
-    font-size: 1.1rem;
+    border: .15vw solid #1A2744 ;
+    width: 40vw;
+    font-size: .95vw;
     text-align: left;
-    height: 25rem;
-    width: 75%;
+    height: 20vw;
     display: flex;
     justify-content: center;   
     align-items: center;
-    border-radius: 1rem;
+    border-radius: 1vw;
     transition: transform 1s;    
 }
 
 .projectsDescriptionWrapper {
-    margin: 2rem;
+    margin: 2vw;
 }
 
 .projectName {
-    font-size: 1.5rem;
+    font-size: 1.3vw;
     font-weight: bold;
 }
 
 .projectDate {
-    font-size: 1rem;
-    margin-bottom: 1rem;
+    font-size: .8vw;
+    margin-bottom: 1vw;
 }
 
 .webIcon {

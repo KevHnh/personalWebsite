@@ -1,7 +1,7 @@
 .linksContainer {
     position: fixed;
-    left: 2rem;
-    bottom: -100rem;
+    left: 1.7vw;
+    bottom: 1vw;
     transition: bottom .6s;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .linksWrapper a {
-   margin-bottom: .6rem;
+   margin-bottom: .5vw;
    color: #1A2744;
    transition: 0s;
    transform: scale(1);
@@ -20,8 +20,8 @@
 }
 
 .lineBlock {
-    border-left: .4rem solid #1A2744;
-    height: 10rem;
+    border-left: .4vw solid #1A2744;
+    height: 10vw;
     margin-left: .86rem;
 }
 
