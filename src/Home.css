@@ -46,10 +46,6 @@
     animation: bounce 1.5s infinite;
 }
 
-.downArrowElement {
-    transform: scale(3.5);
-}
-
 .downArrowIcon {
     color: #1A2744;
 }

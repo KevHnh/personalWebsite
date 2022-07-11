@@ -10,6 +10,11 @@
     color: #1A2744;
 }
 
+a {
+    text-decoration: underline;
+    color: #1A2744;
+}
+
 .projectsTitle {
     font-weight: bold;
     margin-bottom: 4vw;
@@ -33,7 +38,7 @@
 
 .projectsCard {
     display: flex;
-    border-radius: 1px;
+    border-radius: 1vw;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -46,7 +51,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: 5vw;
     flex-direction: row-reverse;
 }
 
@@ -63,7 +68,7 @@
 }
 
 .projectsDescriptionSection {
-    border: .15vw solid #1A2744 ;
+    border: .05vw solid #303644 ;
     width: 40vw;
     font-size: .95vw;
     text-align: left;
@@ -76,7 +81,7 @@
 }
 
 .projectsDescriptionSectionR {
-    border: .15vw solid #1A2744 ;
+    border: .05vw solid #303644 ;
     width: 40vw;
     font-size: .95vw;
     text-align: left;

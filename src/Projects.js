@@ -18,7 +18,7 @@ function Projects() {
                         <div className="projectsTitleWrapper">
                             <div className='projectName'>Ezsea</div>
                             <div className='projectDate'>Jan 2022 - May 2022</div>
-                            <a className="webIcon" href="https://ezsea.netlify.app" target="_blank"><LanguageIcon></LanguageIcon></a>
+                            <a className="webIcon" href="https://ezsea.netlify.app" target="_blank"><LanguageIcon style={{fontSize:"1.25vw"}}></LanguageIcon></a>
                         </div>
                     </div>
                     <div id="projectCardDesc" className="projectsDescriptionSection"> 
@@ -51,7 +51,7 @@ function Projects() {
                         <div className="projectsTitleWrapper">
                             <div className='projectName'>NFT Wallet Verifier</div>
                             <div className='projectDate'>Apr 2022 - Apr 2022</div>
-                            <a className="webIcon" href="https://ezsea.netlify.app" target="_blank"><LanguageIcon></LanguageIcon></a>
+                            <a className="webIcon" href="https://ezsea.netlify.app" target="_blank"><LanguageIcon style={{fontSize:"1.25vw"}}></LanguageIcon></a>
                         </div>
                     </div>
                     <div id="projectCardDescR" className="projectsDescriptionSectionR"> 
@@ -83,7 +83,7 @@ function Projects() {
                         <div className="projectsTitleWrapper">
                             <div className='projectName'>Solana Distributor</div>
                             <div className='projectDate'>Mar 2022 - Mar 2022</div>
-                            <a className="webIcon" href="https://ezsea.netlify.app" target="_blank"><LanguageIcon></LanguageIcon></a>
+                            <a className="webIcon" href="https://ezsea.netlify.app" target="_blank"><LanguageIcon style={{fontSize:"1.25vw"}}></LanguageIcon></a>
                         </div>
                     </div>
                     <div id="projectCardDesc" className="projectsDescriptionSection"> 
@@ -108,14 +108,14 @@ function Projects() {
                         <div className="projectsTitleWrapper">
                             <div className='projectName'>ERC-721A Minting Page</div>
                             <div className='projectDate'>Jun 2022 - Jul 2022</div>
-                            <a className="webIcon" href="https://ezsea.netlify.app" target="_blank"><LanguageIcon></LanguageIcon></a>
+                            <a className="webIcon" href="https://ezsea.netlify.app" target="_blank"><LanguageIcon style={{fontSize:"1.25vw"}}></LanguageIcon></a>
                         </div>
                     </div>
                     <div id="projectCardDescR" className="projectsDescriptionSectionR"> 
                         <div className="projectsDescriptionWrapper"> 
                             <div className="projectsDescriptionText">
-                                An NFT minting website built using <a href="https://www.erc721a.org/" target="_blank">ERC721A</a>, "an improved implementation of the IERC721 standard that supports minting multiple tokens for close to the cost of one."<br/><br/>
-                                Standard Solidity NFT minting smart contract with toggleable sale states, <a href="https://medium.com/@ItsCuzzo/using-merkle-trees-for-nft-whitelists-523b58ada3f9" target="_blank">Merkle Proof</a> whitelist verification, and art reveal functionality.<br/><br/> 
+                                An NFT minting website built using <a href="https://www.erc721a.org/" target="_blank"><b>ERC721A</b></a>, "an improved implementation of the IERC721 standard that supports minting multiple tokens for close to the cost of one."<br/><br/>
+                                Standard Solidity NFT minting smart contract with toggleable sale states, <a href="https://medium.com/@ItsCuzzo/using-merkle-trees-for-nft-whitelists-523b58ada3f9" target="_blank"><b>Merkle Proof</b></a> whitelist verification, and art reveal functionality.<br/><br/> 
                             </div>
                             <div className="projectsDescriptionTools">
                                 <div>Tools Used: </div>
@@ -136,15 +136,13 @@ function Projects() {
                         <div className="projectsTitleWrapper">
                             <div className='projectName'>Expense Tracker</div>
                             <div className='projectDate'>Feb 2022 - Feb 2022</div>
-                            <a className="webIcon" href="https://ezsea.netlify.app" target="_blank"><LanguageIcon></LanguageIcon></a>
+                            <a className="webIcon" href="https://ezsea.netlify.app" target="_blank"><LanguageIcon style={{fontSize:"1.25vw"}}></LanguageIcon></a>
                         </div>
                     </div>
                     <div id="projectCardDesc" className="projectsDescriptionSection"> 
                         <div className="projectsDescriptionWrapper"> 
                             <div className="projectsDescriptionText">
-                                An online learning platform where learners and educators get rewarded for their hardwork and contribution. 
-                                Platform encourages users to create lessons using a document builder on any topic of subject they excel at, and explore an endless variety of potential interests and career paths. 
-                                Users’ statistics are tracked and verified users are eligible for weekly Solana payouts. 
+                                A web application that lets users keep track of their income and expenses. 
                             </div>
                             <div className="projectsDescriptionTools">
                                 <ul className='toolsContainer'>
@@ -159,7 +157,7 @@ function Projects() {
                         <div className="projectsTitleWrapper">
                             <div className='projectName'>COVID-19 Tracker</div>
                             <div className='projectDate'>Feb 2022 - Feb 2022</div>
-                            <a className="webIcon" href="https://ezsea.netlify.app" target="_blank"><LanguageIcon></LanguageIcon></a>
+                            <a className="webIcon" href="https://ezsea.netlify.app" target="_blank"><LanguageIcon style={{fontSize:"1.25vw"}}></LanguageIcon></a>
                         </div>
                     </div>
                     <div id="projectCardDescR" className="projectsDescriptionSectionR"> 
