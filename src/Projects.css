@@ -67,6 +67,10 @@ a {
     z-index: 1;
 }
 
+.projectsTitleWrapper > a {
+    margin: .5vw;
+}
+
 .projectsDescriptionSection {
     border: .05vw solid #303644 ;
     width: 40vw;
