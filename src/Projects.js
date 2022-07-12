@@ -152,8 +152,8 @@ function Projects() {
                                 <div>Tools Used: </div>
                                 <ul className='toolsContainer'>
                                     <li>React.js</li>
-                                    <li>speechly API</li>
                                     <li>chart.js</li>
+                                    <li>speechly API</li>
                                 </ul>
                             </div>
                         </div>
