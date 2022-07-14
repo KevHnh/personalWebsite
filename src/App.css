@@ -1,5 +1,7 @@
-.appBody {
-    height: 100vh;
+.componentsContainer {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .topNav {

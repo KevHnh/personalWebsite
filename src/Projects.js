@@ -26,7 +26,7 @@ function Projects() {
                             <div className="projectsDescriptionText">
                                 An <b>online learning platform</b> where learners and educators get rewarded for their hardwork and contribution.<br/> <br/>
                                 Platform encourages users to create lessons using a document builder on any topic or subject they excel at, and explore the endless variety of potential interests and career paths. <br/><br/> 
-                                Users’ statistics are tracked and verified users are eligible for weekly payouts in <b>Solana</b>. <br/> <br/>
+                                Users’ statistics are tracked and verified users are eligible for weekly payouts in <a href="https://solana.com/" target="_blank"><b>Solana</b></a>. <br/> <br/>
                             </div>
                             <div className="projectsDescriptionTools">
                                 <div>Tools used: </div>
@@ -58,7 +58,7 @@ function Projects() {
                     <div id="projectCardDescR" className="projectsDescriptionSectionR"> 
                         <div className="projectsDescriptionWrapper"> 
                             <div className="projectsDescriptionText">
-                                A reuseable and configurable web component that allows users to connect their <b>Solana</b> NFT wallet(s) and verify their ownership of an NFT. <br/><br/>
+                                A reuseable and configurable web component that allows users to connect their <a href="https://solana.com/" target="_blank"><b>Solana</b></a> NFT wallet(s) and verify their ownership of an NFT. <br/><br/>
                                 Designed for developers that seek to create an environment strictly for holders of a specific NFT.<br/><br/>
                                 The component can also be hooked up to a database to store specific metadata of the NFT, the user's wallet address, and more. <br/><br/>
                             </div>
@@ -90,8 +90,8 @@ function Projects() {
                     <div id="projectCardDesc" className="projectsDescriptionSection"> 
                         <div className="projectsDescriptionWrapper"> 
                             <div className="projectsDescriptionText">
-                                A program that mass distributes Solana to any amount of wallet addresses. The program is designed to take in an array containing the receiving wallet addresses, and an array containing the amount of Solana going to each wallet address. <br/><br/>
-                                An extremely straightforward program that strives to automate and optimize the payment process of companies or workplaces that pay their workers in crypto (Solana).<br/><br/>
+                                A program that mass distributes <a href="https://solana.com/" target="_blank"><b>Solana</b></a> to any amount of wallet addresses. The program is designed to take in an array containing the receiving wallet addresses, and an array containing the amount of Solana going to each wallet address. <br/><br/>
+                                An extremely straightforward program that strives to automate and optimize the payment process of companies or workplaces that pay their workers in Solana.<br/><br/>
                             </div>
                             <div className="projectsDescriptionTools">
                                 <div>Tools used: </div>

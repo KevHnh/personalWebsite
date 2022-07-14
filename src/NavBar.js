@@ -7,8 +7,8 @@ function NavBar() {
         <a href="#home">KEVIN HINH</a>
         <div className='navBarRight'>
             <a href="#about">ABOUT</a>
+            <a href="#education">EDUCATION</a>
             <a href="#projects">PROJECTS</a>
-            <a href="#experience">EXPERIENCE</a>
             <a href="#contact">CONTACT</a>
         </div>
     </div>
