@@ -2,7 +2,6 @@ import About from './About';
 import './App.css';
 import Contact from './Contact';
 import Education from './Education';
-import Footer from './Footer';
 import Home from './Home';
 import Links from './Links';
 import NavBar from './NavBar';
@@ -16,7 +15,7 @@ function App() {
     if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
       document.getElementById("nav").style.top = "0px"
     } else {
-      document.getElementById("nav").style.top = "-10rem"
+      document.getElementById("nav").style.top = "-100rem"
     }
 
     if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
@@ -30,7 +29,7 @@ function App() {
     let elements1 = document.querySelectorAll("#projectCardDesc")
     let elements2 = document.querySelectorAll("#projectCardDescR")
 
-    if (document.body.scrollTop > 1800 || document.documentElement.scrollTop > 1800) {
+    if (document.body.scrollTop > 2100 || document.documentElement.scrollTop > 2100) {
       for(let i = 0; i < elements1.length; i++) {
         elements1[i].style.transform = "translate(-1rem)"
       }
@@ -40,7 +39,7 @@ function App() {
       }
     }
 
-    if (document.body.scrollTop > 1800 || document.documentElement.scrollTop > 1800) {
+    if (document.body.scrollTop > 2100 || document.documentElement.scrollTop > 2100) {
       for(let i = 0; i < elements2.length; i++) {
         elements2[i].style.transform = "translate(1rem)"
       }
