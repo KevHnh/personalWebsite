@@ -32,7 +32,7 @@ function Education() {
             Certifications
           </div>
           <div className="educationBodySection">
-            <ul className="educationColumnSection">
+            <ul className="educationColumnSection two">
               <li>
                   Responsive Web Design <a href="https://www.freecodecamp.org/certification/kevhnh/responsive-web-design" target="_blank"><AssignmentTurnedInOutlinedIcon className="certificateIcon" style={{fontSize:"1.25vw"}}></AssignmentTurnedInOutlinedIcon></a>
               </li>

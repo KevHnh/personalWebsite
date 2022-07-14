@@ -40,14 +40,11 @@
     font-size: 1.25vw;
     line-height: 2vw;
     margin: 0;
-    margin-left: 1vw;
     padding: 0;
     width: 100%;
     display: flex;
     flex-direction: column;
 }
-
-
 
 .educationItem {
     display: flex;
@@ -65,7 +62,6 @@
     transform: translateY(.1vw);
 }
 
-
-
-
-
+.two {
+    margin-left: .65vw;
+}

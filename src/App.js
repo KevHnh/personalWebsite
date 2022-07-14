@@ -1,6 +1,8 @@
 import About from './About';
 import './App.css';
+import Contact from './Contact';
 import Education from './Education';
+import Footer from './Footer';
 import Home from './Home';
 import Links from './Links';
 import NavBar from './NavBar';
@@ -28,7 +30,7 @@ function App() {
     let elements1 = document.querySelectorAll("#projectCardDesc")
     let elements2 = document.querySelectorAll("#projectCardDescR")
 
-    if (document.body.scrollTop > 2500 || document.documentElement.scrollTop > 2500) {
+    if (document.body.scrollTop > 1800 || document.documentElement.scrollTop > 1800) {
       for(let i = 0; i < elements1.length; i++) {
         elements1[i].style.transform = "translate(-1rem)"
       }
@@ -38,7 +40,7 @@ function App() {
       }
     }
 
-    if (document.body.scrollTop > 2500 || document.documentElement.scrollTop > 2500) {
+    if (document.body.scrollTop > 1800 || document.documentElement.scrollTop > 1800) {
       for(let i = 0; i < elements2.length; i++) {
         elements2[i].style.transform = "translate(1rem)"
       }
@@ -63,6 +65,7 @@ function App() {
           <About/>
           <Education/>
           <Projects/>
+          <Contact/>
         </div>
         <div className='appLinksContainer'>
           <Links/>
