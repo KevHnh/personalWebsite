@@ -92,4 +92,19 @@
     .downArrowElement {
         transform: scale(3);
     }
+
+    .downArrowContainer {
+        background-color: rgb(255, 127, 63);
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .downArrowIcon {
+        color: white;
+        transform: translateY(.2rem) translateX(-.02rem);
+    }
 }
