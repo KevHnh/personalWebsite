@@ -78,6 +78,10 @@
         font-size: 1rem;
     }
 
+    .educationBodyHeader {
+        width: 100%;
+    }
+
     .educationColumnSection {
         font-size: .75rem;
         line-height: 1.25rem;

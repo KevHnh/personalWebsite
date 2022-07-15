@@ -18,7 +18,7 @@ function Projects() {
                         <div className="projectsTitleWrapper">
                             <div className='projectName'>Ezsea</div>
                             <div className='projectDate'>Jan 2022 - May 2022</div>
-                            <a className="webIcon" href="https://ezsea.netlify.app" target="_blank"><LanguageIcon style={{fontSize:"1.25vw"}}></LanguageIcon></a>
+                            <a className="webIcon" href="https://ezsea.netlify.app" target="_blank"><LanguageIcon className="webIconElement" style={{fontSize:"1.25vw"}}></LanguageIcon></a>
                         </div>
                     </div>
                     <div id="projectCardDesc" className="projectsDescriptionSection"> 
@@ -51,8 +51,8 @@ function Projects() {
                         <div className="projectsTitleWrapper">
                             <div className='projectName'>NFT Wallet Verifier</div>
                             <div className='projectDate'>Apr 2022 - Apr 2022</div>
-                            <a className="webIcon" href="https://nftwalletverifier.netlify.app/" target="_blank"><LanguageIcon style={{fontSize:"1.25vw"}}></LanguageIcon></a>
-                            <a className="webIcon" href="https://github.com/KevHnh/NFT-Wallet-Verifier" target="_blank"><GitHubIcon style={{fontSize:"1.25vw"}}></GitHubIcon></a>
+                            <a className="webIcon" href="https://nftwalletverifier.netlify.app/" target="_blank"><LanguageIcon className="webIconElement" style={{fontSize:"1.25vw"}}></LanguageIcon></a>
+                            <a className="webIcon" href="https://github.com/KevHnh/NFT-Wallet-Verifier" target="_blank"><GitHubIcon className="webIconElement" style={{fontSize:"1.25vw"}}></GitHubIcon></a>
                         </div>
                     </div>
                     <div id="projectCardDescR" className="projectsDescriptionSectionR"> 
@@ -84,7 +84,7 @@ function Projects() {
                         <div className="projectsTitleWrapper">
                             <div className='projectName'>Solana Distributor</div>
                             <div className='projectDate'>Mar 2022 - Mar 2022</div>
-                            <a className="webIcon" href="https://github.com/KevHnh/solana_distributor" target="_blank"><GitHubIcon style={{fontSize:"1.25vw"}}></GitHubIcon></a>
+                            <a className="webIcon" href="https://github.com/KevHnh/solana_distributor" target="_blank"><GitHubIcon className="webIconElement" style={{fontSize:"1.25vw"}}></GitHubIcon></a>
                         </div>
                     </div>
                     <div id="projectCardDesc" className="projectsDescriptionSection"> 
@@ -109,7 +109,7 @@ function Projects() {
                         <div className="projectsTitleWrapper">
                             <div className='projectName'>ERC-721A Minting Page</div>
                             <div className='projectDate'>Jun 2022 - Jul 2022</div>
-                            <a className="webIcon" href="https://github.com/KevHnh/DiveDolphins" target="_blank"><GitHubIcon style={{fontSize:"1.25vw"}}></GitHubIcon></a>
+                            <a className="webIcon" href="https://github.com/KevHnh/DiveDolphins" target="_blank"><GitHubIcon className="webIconElement" style={{fontSize:"1.25vw"}}></GitHubIcon></a>
                         </div>
                     </div>
                     <div id="projectCardDescR" className="projectsDescriptionSectionR"> 
@@ -137,8 +137,8 @@ function Projects() {
                         <div className="projectsTitleWrapper">
                             <div className='projectName'>Expense Tracker</div>
                             <div className='projectDate'>Feb 2022 - Feb 2022</div>
-                            <a className="webIcon" href="https://speechly-expensetracker.netlify.app/" target="_blank"><LanguageIcon style={{fontSize:"1.25vw"}}></LanguageIcon></a>
-                            <a className="webIcon" href="https://github.com/KevHnh/Expense-Tracker/" target="_blank"><GitHubIcon style={{fontSize:"1.25vw"}}></GitHubIcon></a>
+                            <a className="webIcon" href="https://speechly-expensetracker.netlify.app/" target="_blank"><LanguageIcon className="webIconElement" style={{fontSize:"1.25vw"}}></LanguageIcon></a>
+                            <a className="webIcon" href="https://github.com/KevHnh/Expense-Tracker/" target="_blank"><GitHubIcon className="webIconElement" style={{fontSize:"1.25vw"}}></GitHubIcon></a>
                         </div>
                     </div>
                     <div id="projectCardDesc" className="projectsDescriptionSection"> 
@@ -165,8 +165,8 @@ function Projects() {
                         <div className="projectsTitleWrapper">
                             <div className='projectName'>COVID-19 Tracker</div>
                             <div className='projectDate'>Feb 2022 - Feb 2022</div>
-                            <a className="webIcon" href="https://bovid19-tracker.netlify.app/" target="_blank"><LanguageIcon style={{fontSize:"1.25vw"}}></LanguageIcon></a>
-                            <a className="webIcon" href="https://github.com/KevHnh/covid-19-tracker" target="_blank"><GitHubIcon style={{fontSize:"1.25vw"}}></GitHubIcon></a>
+                            <a className="webIcon" href="https://bovid19-tracker.netlify.app/" target="_blank"><LanguageIcon className="webIconElement" style={{fontSize:"1.25vw"}}></LanguageIcon></a>
+                            <a className="webIcon" href="https://github.com/KevHnh/covid-19-tracker" target="_blank"><GitHubIcon className="webIconElement" style={{fontSize:"1.25vw"}}></GitHubIcon></a>
                         </div>
                     </div>
                     <div id="projectCardDescR" className="projectsDescriptionSectionR"> 

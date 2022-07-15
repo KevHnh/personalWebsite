@@ -80,14 +80,11 @@ ul.slick-dots {
     }
 
     .aboutWrapper {
-        justify-content: center;
-        align-items: center;
         width: 50%;
     }
 
     .slick-track {
         top: 1rem !important;
-        height: 50vh !important;
         cursor: grab;
     }
 
@@ -113,6 +110,14 @@ ul.slick-dots {
         color: #1A2744 !important;
         font-size: 1rem !important;
         line-height: 1rem !important;
+    }
+
+    ul.slick-dots {
+        bottom: -5rem;
+    }
+
+    .slick-list {
+        padding-bottom: 2vh !important; 
     }
 }
 

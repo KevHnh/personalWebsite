@@ -122,3 +122,108 @@ a {
     float: left;
     text-align: left;
 }
+
+@media screen and (max-width: 500px) {
+    .projectsContainer {
+        font-size: 1.25rem;
+        padding-top: 2rem;
+    }
+
+    .projectsPadding {
+        width: 10%;
+    }
+
+    .projectsSection {
+        width: 100vw;
+    }
+
+    .projectsCard {
+        display: flex;
+        flex-direction: column;
+        border-radius: 1vw;
+        width: 80%;
+        padding-bottom: 5vh;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5vw;
+    }
+    
+    .projectsCardR {
+        display: flex;
+        flex-direction: column;
+        border-radius: 1vw;
+        width: 80%;
+        padding-bottom: 5vh;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5vw;
+    }
+
+    .projectsTitleSection {
+        width: 100%;
+        height: 7.5rem;
+        border-radius: 1vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .projectName {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    .projectDate {
+        font-size: .75rem;
+        margin-bottom: .75rem;
+    }
+    
+    .webIconElement {
+        transform: scale(3);
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .projectsDescriptionSection {
+        border: .05vw solid #303644 ;
+        width: 90%;
+        font-size: 1.5vh;
+        text-align: left;
+        height: 50vh;
+        display: flex;
+        justify-content: center;   
+        align-items: center;
+        border-radius: 1vw;
+        line-height: 2.1vh;
+    }
+    
+    .projectsDescriptionSectionR {
+        border: .05vw solid #303644 ;
+        width: 90%;
+        font-size: 1.5vh;
+        text-align: left;
+        height: 50vh;
+        display: flex;
+        justify-content: center;   
+        align-items: center;
+        border-radius: 1vw;
+        line-height: 2.1vh;
+
+    }
+
+    .projectsSectionColumn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projectsDescriptionWrapper {
+        margin: .5rem;
+    }
+
+    .toolsContainer {
+        columns: 2;
+    }
+}
