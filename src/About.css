@@ -73,4 +73,46 @@ ul.slick-dots {
     cursor: grabbing;
 }
 
+@media screen and (max-width: 500px) {
+    .aboutContainer {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    .aboutWrapper {
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .slick-track {
+        top: 1rem !important;
+        height: 50vh !important;
+        cursor: grab;
+    }
+
+    .listContainer {
+        width: 50%;
+        column-count: 1;
+        list-style-position: inside;
+        list-style: none;
+        line-height: 1.5rem;
+        font-size: 1rem;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 2vw;
+        margin-top: 1vw;
+    }
+
+    .slick-dots li.slick-active button:before {
+        font-size: 1rem !important;
+        line-height: 1rem !important;
+    }
+
+    .slick-dots li button:before {
+        color: #1A2744 !important;
+        font-size: 1rem !important;
+        line-height: 1rem !important;
+    }
+}
 

@@ -65,3 +65,31 @@
 .two {
     margin-left: .65vw;
 }
+
+@media screen and (max-width: 500px) {
+    .educationWrapper {
+        font-size: 1.25rem;
+        line-height: 1rem;
+    }
+
+    .educationBodyHeader {
+        margin-top: 2rem;
+        margin-bottom: .5rem;
+        font-size: 1rem;
+    }
+
+    .educationColumnSection {
+        font-size: .75rem;
+        line-height: 1.25rem;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .certificateIcon {
+        transform: scale(2.5) translateY(-.2vw);
+        padding-left: .2rem;
+    }
+}
