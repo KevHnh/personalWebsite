@@ -1,7 +1,6 @@
 .linksContainer {
     position: fixed;
     left: 1.7vw;
-    bottom: -50vw;
     transition: bottom .6s;
     transform: scale(1);
 }
@@ -21,7 +20,7 @@
 
 .lineBlock {
     border-left: .3vw solid #1A2744;
-    height: 10vw;
+    height: 5vw;
     margin-left: .75vw;
 }
 
@@ -29,4 +28,34 @@
     cursor: pointer;
     transform: scale(1.5);
     transition: transform .6s;
+}
+
+@media screen and (max-width: 500px) {
+    .iconElements {
+        transform: scale(4);
+    }
+
+    .linksContainer {
+        position: fixed;
+        left: 5vw;
+        transition: bottom .6s;
+        transform: scale(1);
+    }
+
+    .linksWrapper {
+        display: flex;
+        flex-direction: column;
+        bottom: 0;
+    }
+
+    .linksWrapper a {
+        margin-bottom: 1.5rem;
+        color: #1A2744;
+        transition: 0s;
+        transition: transform .5s;
+    }
+
+    .lineBlock {
+        display: none;
+    }
 }

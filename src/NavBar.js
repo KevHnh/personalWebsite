@@ -1,11 +1,19 @@
 import React, {useState, useEffect} from 'react'
 import './NavBar.css'
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 
 function NavBar() {
   const [toggleMenu, setToggleMenu] = useState(false)
   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 
   const toggleNav = () => {
+    if (screenWidth > 500) {
+      console.log("HERE")
+      setToggleMenu(false)
+      return
+    }
+
     setToggleMenu(!toggleMenu)
   }
 
@@ -34,7 +42,14 @@ function NavBar() {
       </div>
       )}
         <div className="navButton">
-          <div className="actualButton" onClick={toggleNav}>BTN</div>
+          {(toggleMenu) ? 
+          <div className="navButton">
+            <div onClick={toggleNav}><CloseIcon className="actualButton" style={{fontSize:"7.5vw"}}/></div> 
+          </div> :
+          <div className="navButton">
+            <div onClick={toggleNav}><MenuIcon className="actualButton" style={{fontSize:"7.5vw"}}/></div>
+          </div>
+          }
         </div >
     </div>
   )

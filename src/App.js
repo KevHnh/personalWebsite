@@ -19,7 +19,7 @@ function App() {
     }
 
     if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-      document.getElementById("link").style.bottom = "-70px"
+      document.getElementById("link").style.bottom = "-10px"
     } else {
       document.getElementById("link").style.bottom = "-100rem"
     }
