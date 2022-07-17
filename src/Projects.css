@@ -127,6 +127,7 @@ a {
     .projectsContainer {
         font-size: 1.25rem;
         padding-top: 2rem;
+        height: 450vh;
     }
 
     .projectsPadding {

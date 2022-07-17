@@ -10,6 +10,7 @@
     color: #1A2744;
     font-family: 'Inter';
     font-style: normal;
+    font-size: .85vw;
 }
 
 .footerWrapper {
@@ -23,4 +24,11 @@
 .footerWrapper:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .footerContainer {
+        font-size: .75rem;
+        padding-bottom: 1rem;
+    }
 }

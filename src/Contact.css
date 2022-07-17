@@ -45,3 +45,29 @@
     color: #1A2744;
     cursor: pointer;
 }
+
+@media screen and (max-width: 500px) {
+    .contactWrapper {
+        height: 100vh;
+    }
+    
+    .contactTitle {
+        padding-bottom: 2.5vh;
+        font-size: 1.25rem;
+    }
+
+    .contactBody {
+        width: 60%;
+        font-size: 1rem;
+        line-height: 1.15rem;
+    }
+
+    .contactButton {
+        font-size: .85rem;
+        padding-left: .85rem;
+        padding-right: .85rem;
+        padding-top: .85rem;
+        padding-bottom: .85rem;
+        border-radius: .5rem;
+    }
+}
