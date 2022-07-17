@@ -61,7 +61,7 @@ function App() {
       }
     }
 
-    if (document.body.scrollTop > 2100 || screenWidth < 500) {
+    if (document.body.scrollTop > 2100 || screenWidth <= 500) {
       for(let i = 0; i < elements1.length; i++) {
         elements1[i].style.transform = "translateY(-.5rem)"
       }
