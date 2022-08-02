@@ -3,8 +3,8 @@
     height: 100vh;
     font-family: 'Inter';
     font-style: normal;
-    font-size: 1.8vw;
-    line-height: 3vw;
+    font-size: 1.8rem;
+    line-height: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,8 +27,8 @@
 
 .educationBodyHeader {
     width: 100%;
-    margin-top: 2vw;
-    font-size: 1.5vw;
+    margin-top: 2rem;
+    font-size: 1.5rem;
     float: left;
     font-weight: bold;
 }
@@ -37,8 +37,8 @@
     columns: 1;
     list-style:inside;
     text-align: left;
-    font-size: 1.25vw;
-    line-height: 2vw;
+    font-size: 1.25rem;
+    line-height: 2rem;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -51,25 +51,48 @@
     columns: 1;
     list-style:inside;
     text-align: left;
-    font-size: 1.25vw;
-    line-height: 2vw;
+    font-size: 1.25rem;
+    line-height: 2rem;
     margin: 0;
-    margin-left: 1vw;
+    margin-left: 1rem;
     padding: 0;
 }
 
 .certificateIcon {
-    transform: translateY(.1vw);
+    transform: translateY(.1rem);
 }
 
 .two {
     margin-left: .65vw;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
     .educationWrapper {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         line-height: 1rem;
+    }
+
+    .educationBodyWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .educationBodySection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        float: none;
+    }
+
+    .educationBodyContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
     }
 
     .educationBodyHeader {
@@ -82,8 +105,12 @@
         width: 100%;
     }
 
+    li {
+        padding-left: 1rem;
+    }
+
     .educationColumnSection {
-        font-size: .8rem;
+        font-size: 1rem;
         line-height: 1.25rem;
         margin: 0;
         padding: 0;
@@ -93,7 +120,6 @@
     }
 
     .certificateIcon {
-        transform: scale(2.5) translateY(-.2vw);
-        padding-left: .2rem;
+        transform: translateY(.2rem);
     }
 }

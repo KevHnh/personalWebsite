@@ -8,7 +8,7 @@ function NavBar() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 
   const toggleNav = () => {
-    if (screenWidth > 500) {
+    if (screenWidth > 1000) {
       console.log("HERE")
       setToggleMenu(false)
       return
@@ -30,7 +30,7 @@ function NavBar() {
 
   return (
     <div className='navBarContainer'>
-      {(toggleMenu || screenWidth > 500) && (
+      {(toggleMenu || screenWidth > 1000) && (
         <div className='navBarContainer'> 
         <a className="homeButton" onClick={toggleNav} href="#home">KEVIN HINH</a>
         <div className='navBarRight'>
@@ -44,10 +44,10 @@ function NavBar() {
         <div className="navButton">
           {(toggleMenu) ? 
           <div className="navButton">
-            <div onClick={toggleNav}><CloseIcon className="actualButton" style={{fontSize:"7.5vw"}}/></div> 
+            <div onClick={toggleNav}><CloseIcon className="actualButton" style={{fontSize:"2.5rem"}}/></div> 
           </div> :
           <div className="navButton">
-            <div onClick={toggleNav}><MenuIcon className="actualButton" style={{fontSize:"7.5vw"}}/></div>
+            <div onClick={toggleNav}><MenuIcon className="actualButton" style={{fontSize:"2.5rem"}}/></div>
           </div>
           }
         </div >

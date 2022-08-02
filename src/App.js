@@ -41,7 +41,7 @@ function App() {
     let elements1 = document.querySelectorAll("#projectCardDesc")
     let elements2 = document.querySelectorAll("#projectCardDescR")
 
-    if (document.body.scrollTop > 2100 || document.documentElement.scrollTop > 2100 && screenWidth > 500) {
+    if (document.body.scrollTop > 2100 || document.documentElement.scrollTop > 2100 && screenWidth > 1000) {
       for(let i = 0; i < elements1.length; i++) {
         elements1[i].style.transform = "translate(-1rem)"
       }
@@ -51,7 +51,7 @@ function App() {
       }
     }
 
-    if (document.body.scrollTop > 2100 || document.documentElement.scrollTop > 2100 && screenWidth > 500) {
+    if (document.body.scrollTop > 2100 || document.documentElement.scrollTop > 2100 && screenWidth > 1000) {
       for(let i = 0; i < elements2.length; i++) {
         elements2[i].style.transform = "translate(1rem)"
       }
@@ -61,7 +61,7 @@ function App() {
       }
     }
 
-    if (document.body.scrollTop > 2100 || screenWidth <= 500) {
+    if (document.body.scrollTop > 2100 || screenWidth <= 1000) {
       for(let i = 0; i < elements1.length; i++) {
         elements1[i].style.transform = "translateY(-.5rem)"
       }

@@ -3,8 +3,8 @@
     height: 100vh;
     font-family: 'Inter';
     font-style: normal;
-    font-size: 1.8vw;
-    line-height: 3vw;
+    font-size: 1.8rem;
+    line-height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +73,7 @@ ul.slick-dots {
     cursor: grabbing;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
     .aboutContainer {
         font-size: 1.25rem;
         line-height: 1.75rem;

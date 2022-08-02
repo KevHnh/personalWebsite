@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 5vw;
+    height: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,7 +10,7 @@
     color: #1A2744;
     font-family: 'Inter';
     font-style: normal;
-    font-size: .85vw;
+    font-size: .85rem;
 }
 
 .footerWrapper {
@@ -26,7 +26,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
     .footerContainer {
         font-size: .75rem;
         padding-bottom: 1rem;

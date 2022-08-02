@@ -1,6 +1,6 @@
 .linksContainer {
     position: fixed;
-    left: 1.7vw;
+    left: 1.7rem;
     transition: bottom .6s;
     transform: scale(1);
 }
@@ -12,16 +12,16 @@
 }
 
 .linksWrapper a {
-   margin-bottom: .5vw;
+   margin-bottom: .5rem;
    color: #1A2744;
    transition: 0s;
    transition: transform .5s;
 }
 
 .lineBlock {
-    border-left: .3vw solid #1A2744;
-    height: 5vw;
-    margin-left: .75vw;
+    border-left: .3rem solid #1A2744;
+    height: 7rem;
+    margin-left: 1rem;
 }
 
 .linksWrapper a:hover {
@@ -30,26 +30,21 @@
     transition: transform .6s;
 }
 
-@media screen and (max-width: 500px) {
-    .iconElements {
-        transform: scale(4);
-    }
-
+@media screen and (max-width: 1000px) {
     .linksContainer {
         position: fixed;
-        left: 5vw;
+        left: .5rem;
         transition: bottom .6s;
-        transform: scale(1);
     }
 
     .linksWrapper {
         display: flex;
         flex-direction: column;
-        bottom: 0;
+        margin-bottom: .5rem;
     }
 
     .linksWrapper a {
-        margin-bottom: 1.5rem;
+        margin-bottom: .5rem;
         color: #1A2744;
         transition: 0s;
         transition: transform .5s;

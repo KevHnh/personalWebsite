@@ -174,7 +174,7 @@ function Projects() {
                             <div className="projectsDescriptionText">
                                 A web application that showcases the statistics of COVID-19 and provides relevant articles so users can stay up to date with how the disease is affecting the world. <br/><br/>
                                 The web application also contains filters so the user can find the specific number of different categories by country. <br/><br/>
-                                The data and articles are called from the <a href="https://disease.sh/" target="_blank"><b>disease.sh</b></a> API and <a href="https://newsdata.io/" target="_blank"><b>newsdata.io</b></a> API.
+                                The data and articles are called from the <a href="https://disease.sh/" target="_blank"><b>disease.sh</b></a> API and <a href="https://newsdata.io/" target="_blank"><b>newsdata.io</b></a> API.<br/><br/>
                             </div>
                             <div className="projectsDescriptionTools">
                                 <div>Tools Used: </div>

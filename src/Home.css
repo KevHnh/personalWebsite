@@ -1,28 +1,37 @@
 .homeContainer {
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    width:100%;
+    height: 100vh;  
+    position: relative; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: -webkit-fill-available;
+    max-height: -webkit-fill-available;
 }
 
 .nameContainer {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 1000;
-    font-size: 3.25vw;
-    line-height: 3vw;
+    font-size: 3.25rem;
+    line-height: 3rem;
     text-align: center; 
     color: #1A2744;
 }
 
 .typewriterComponent {
     font-family: 'Inter';
-    font-size: 1.25vw;
+    font-size: 1.25rem;
     text-align: center;
     justify-content: center; 
     color: white;
+    padding-top: .1rem;
     background-color: rgb(255, 127, 63);
-    height: 1.5vw;
+    height: 1.6rem;
 }
 
 .imgContainer {
@@ -31,8 +40,8 @@
     z-index: -10;
     bottom: 0;
     left: 0;
-    width: 25vw;
-    height: 25vw;
+    width: 30rem;
+    height: 30rem;
 }
 
 .kevPNG {
@@ -54,6 +63,10 @@
     display: none;
 }
 
+.downArrowElement {
+    font-size: 5rem !important;
+}
+
 @keyframes bounce {
     0%  {bottom: 75px;}
     50% {bottom: 50px;}
@@ -61,7 +74,11 @@
 } 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
+    .downArrowElement {
+        font-size: 1.3rem !important;
+    }
+
     .homeContainer {
         height: 100vh;
         display: flex;
@@ -70,7 +87,7 @@
     }
 
     .nameContainer {
-        padding-top: 30vw;
+        padding-top: 10rem;
         background-color: white;
         font-size: 3rem;
         line-height: 2.5rem;
@@ -95,7 +112,7 @@
     }
 
     .downArrowElement {
-        transform: scale(2);
+        font-size: 2.5rem !important;
     }
 
     .downArrowContainer {
@@ -110,6 +127,6 @@
 
     .downArrowIcon {
         color: white;
-        transform: translateY(.5vw);
+        transform: translateY(.2rem);
     }
 }

@@ -27,7 +27,7 @@ function Home() {
             </div>
         </div>
         <div className='downArrowContainer'>
-            <a className="downArrowIcon" href="#about"><KeyboardArrowDownIcon style={{fontSize: '4vw'}} className='downArrowElement'/></a>
+            <a className="downArrowIcon" href="#about"><KeyboardArrowDownIcon style={{fontSize: '1.25rem'}} className='downArrowElement'/></a>
         </div>
         <div className="imgContainer">
             <img className="kevPNG" src={kevNFT} alt="Kevin NFT"></img>

@@ -1,10 +1,10 @@
 .projectsContainer {
     text-align: center;
-    width: 100%;
-    height: 400vh;
+    width: 100vw;
+    height: 200rem;
     font-family: 'Inter';
     font-style: normal;
-    font-size: 1.8vw;
+    font-size: 1.8rem;
     justify-content: center;
     align-items: center;
     color: #1A2744;
@@ -17,8 +17,8 @@ a {
 
 .projectsTitle {
     font-weight: bold;
-    margin-bottom: 4vw;
-    padding-top: 7.5vw;
+    margin-bottom: 4rem;
+    padding-top: 7.5rem;
 }
 
 .projectsPadding {
@@ -38,29 +38,36 @@ a {
 
 .projectsCard {
     display: flex;
-    border-radius: 1vw;
-    width: 100%;
+    border-radius: 1rem;
+    width: 52.5rem;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5vw;
+    margin-bottom: 5rem;
 }
 
 .projectsCardR {
     display: flex;
-    border-radius: 1vw;
-    width: 100%;
+    border-radius: 1rem;
+    width: 52.5rem;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5vw;
+    margin-bottom: 5rem;
     flex-direction: row-reverse;
+}
+
+.projectsSectionColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .projectsTitleSection {
     background-color: #1A2744;
     color: white;
-    width: 16vw;
-    height: 25vw;
-    border-radius: 1vw;
+    width: 18rem;
+    height: 25rem;
+    border-radius: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,47 +75,47 @@ a {
 }
 
 .projectsTitleWrapper > a {
-    margin: .5vw;
+    margin: .5rem;
 }
 
 .projectsDescriptionSection {
-    border: .05vw solid #303644 ;
-    width: 40vw;
-    font-size: .95vw;
+    border: .05rem solid #303644 ;
+    width: 40rem;
+    font-size: .95rem;
     text-align: left;
-    height: 20vw;
+    height: 20rem;
     display: flex;
     justify-content: center;   
     align-items: center;
-    border-radius: 1vw;
+    border-radius: 1rem;
     transition: transform 1s;
 }
 
 .projectsDescriptionSectionR {
-    border: .05vw solid #303644 ;
-    width: 40vw;
-    font-size: .95vw;
+    border: .05rem solid #303644 ;
+    width: 40rem;
+    font-size: .95rem;
     text-align: left;
-    height: 20vw;
+    height: 20rem;
     display: flex;
     justify-content: center;   
     align-items: center;
-    border-radius: 1vw;
+    border-radius: 1rem;
     transition: transform 1s;    
 }
 
 .projectsDescriptionWrapper {
-    margin: 2vw;
+    margin: 2rem;
 }
 
 .projectName {
-    font-size: 1.3vw;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
 .projectDate {
-    font-size: .8vw;
-    margin-bottom: 1vw;
+    font-size: .8rem;
+    margin-bottom: 1rem;
 }
 
 .webIcon {
@@ -123,11 +130,19 @@ a {
     text-align: left;
 }
 
-@media screen and (max-width: 500px) {
+.webIconElement {
+    font-size: 1.3rem !important;
+}
+
+@media screen and (max-width: 1000px) {
+    .webIconElement {
+        font-size: .5rem !important;
+    }
+
     .projectsContainer {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         padding-top: 2rem;
-        height: 450vh;
+        height: 250rem;
     }
 
     .projectsPadding {
